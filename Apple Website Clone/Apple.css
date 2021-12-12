@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+}
+.topnav{
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 13px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: rgb(112, 109, 109);
+    z-index: 9999;
+    user-select: none;
+    opacity: 0.989;
+}
+
+a{
+    text-decoration: none;
+    font-size: 11.40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    background-color: rgb(245, 238, 238);
+    display: flex;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 40px;
+    padding: 1px;
+    justify-content: center;
+    z-index: 1;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13.5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1{
+    font-family: SF Pro, sans-serif;
+    color: black;
+    position: absolute;
+    top: 110px;
+    left: 500px;
+    font-size: 53px;
+}
+
+h5{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 160px;
+    left: 600px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.img1{
+    position: absolute;
+    top: 20px;
+    left: 110px;
+}
+
+.img2{
+    position: absolute;
+    top: 680px;
+    left: 0px;
+    right: 0px;
+}
+
+.text1 h1{
+    font-family: SF Pro, sans-serif;
+    color: white;
+    position: absolute;
+    top: 700px;
+    left: 550px;
+    font-size: 53px;
+}
+
+.text1 h5{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(241, 180, 218);
+    position: absolute;
+    top: 760px;
+    left: 530px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.img3{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 1330px;
+    left: 0px;
+    right: 0px;
+}
+
+.text2 h1{
+    font-family: SF Pro, sans-serif;
+    color: black;
+    position: absolute;
+    top: 1350px;
+    left: 500px;
+    font-size: 53px;
+}
+
+.text2 h5{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 1410px;
+    left: 515px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.img4{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 1950px;
+    left: 80px;
+}
+
+.text3 h2{
+    font-family: SF Pro, sans-serif;
+    color: black;
+    position: absolute;
+    top: 2000px;
+    left: 310px;
+    font-size: 20x;
+}
+
+.text3 h5{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 2070px;
+    left: 210px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.text3 img{
+    position: absolute;
+    top: 2022px;
+    left: 280px;
+}
+
+.text3 p{
+    position: absolute;
+    top: 2045px;
+    left: 285px;
+    font-size: 17px;
+    color: brown;
+    font-weight: bold;
+    font-family: SF Pro,sans-serif;
+}
+
+.img5{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 1950px;
+    left: 680px;
+}
+
+.text4 h1{
+    font-family: SF Pro, sans-serif;
+    color: black;
+    position: absolute;
+    top: 1930px;
+    left: 840px;
+    font-size: 53px;
+}
+
+.text4 h5{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 1990px;
+    left: 805px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.text4 p{
+    font-family: cursive, SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 1910px;
+    left: 970px;
+    color: blueviolet; 
+}
+
+.img6{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2460px;
+    left: 80px;
+}
+
+.text5 h1{
+    font-family: SF Pro, sans-serif;
+    color: black;
+    position: absolute;
+    top: 2800px;
+    left: 250px;
+    font-size: 20x;
+}
+
+.text5 h5{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 2870px;
+    left: 240px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.img7{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2480px;
+    left: 680px;
+}
+
+.text6 h1{
+    font-family: SF Pro, sans-serif;
+    color: black;
+    position: absolute;
+    top: 2500px;
+    left: 800px;
+    font-size: 50px;
+}
+
+.text6 h5{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 2560px;
+    left: 760px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.img8{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2990px;
+    left: 80px;
+}
+
+.img9{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2980px;
+    left: 680px;
+}
+
+.text7 img{
+    position: absolute;
+    top: 3022px;
+    left: 240px;
+}
+
+.text7 h1{
+    font-family: SF Pro, sans-serif;
+    color: black;
+    position: absolute;
+    top: 2980px;
+    left: 290px;
+    font-size: 20x;
+}
+
+.text7 h5{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 3050px;
+    left: 220px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.text8 img{
+    position: absolute;
+    top: 3300px;
+    left: 920px;
+}
+
+.text8 h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 3350px;
+    left: 900px;
+    font-size: 50px;
+}
+
+.text8 h5{
+    font-family: "SF Pro Text", "SF Pro Icons";
+    color: white;
+    position: absolute;
+    top: 3225px;
+    left: 970px;
+    font-size: 45px;
+    font-weight: lighter;
+}
